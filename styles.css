@@ -1,8 +1,16 @@
 
+body {
+    font-family: "Sofia", sans-serif;
+}
+
 h1 {
-    color: #20AEAC;
+    color: #ae4120;
 }
 
 .titre-style {
     text-decoration: underline dashed;
+}
+
+#titre {
+    color: #ae4120;
 }
