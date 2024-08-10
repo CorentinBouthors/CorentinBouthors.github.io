@@ -4,5 +4,5 @@ h1 {
 }
 
 .titre-style {
-    text-decoration: dashed;
+    text-decoration: underline dashed;
 }
