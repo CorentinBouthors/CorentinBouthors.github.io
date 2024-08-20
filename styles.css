@@ -1,6 +1,10 @@
 
 body {
     font-family: "Sofia", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 h1 {
@@ -9,4 +13,29 @@ h1 {
 
 .titre-style {
     text-decoration: underline dashed;
+}
+
+.square-style{
+    background-color: #ffffff;
+    height: 600px;
+    width: 600px;
+}
+.row{
+    height: 200px;
+    width: 600px;
+    display: flex;
+}
+
+.cell{
+    height: 200px;
+    width: 200px;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-image: url("matein5.png");
+    background-size: 200px;
 }
